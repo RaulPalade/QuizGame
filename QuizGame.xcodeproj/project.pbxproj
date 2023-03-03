@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0301076D29B21372006E6012 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301076C29B21372006E6012 /* Answer.swift */; };
+		0301076F29B213D5006E6012 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301076E29B213D5006E6012 /* Quiz.swift */; };
 		030222FF29B0BD2200EAA64A /* GameGategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030222FE29B0BD2200EAA64A /* GameGategory.swift */; };
 		0302230129B0D97600EAA64A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302230029B0D97600EAA64A /* QuestionView.swift */; };
 		0302230329B0E5EA00EAA64A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302230229B0E5EA00EAA64A /* ProgressBar.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0301076C29B21372006E6012 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		0301076E29B213D5006E6012 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		030222FE29B0BD2200EAA64A /* GameGategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGategory.swift; sourceTree = "<group>"; };
 		0302230029B0D97600EAA64A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		0302230229B0E5EA00EAA64A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				030222FE29B0BD2200EAA64A /* GameGategory.swift */,
+				0301076C29B21372006E6012 /* Answer.swift */,
+				0301076E29B213D5006E6012 /* Quiz.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,9 +223,11 @@
 			files = (
 				0302230129B0D97600EAA64A /* QuestionView.swift in Sources */,
 				03AC983629AF91AF00384799 /* ContentView.swift in Sources */,
+				0301076F29B213D5006E6012 /* Quiz.swift in Sources */,
 				03AC985929AFA70900384799 /* PrimaryCard.swift in Sources */,
 				030222FF29B0BD2200EAA64A /* GameGategory.swift in Sources */,
 				0302230329B0E5EA00EAA64A /* ProgressBar.swift in Sources */,
+				0301076D29B21372006E6012 /* Answer.swift in Sources */,
 				03AC985D29AFB64700384799 /* GameCategoryView.swift in Sources */,
 				03AC984729AF9B6900384799 /* BackgroundGradient.swift in Sources */,
 				03AC984529AF928200384799 /* PrimaryButton.swift in Sources */,
